@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Navbar style start*/
+.home {
+  background-color: chocolate;
+  border-radius: 3px;
+}
+.nav {
+  background-color: darkslategray;
+  height: 63px;
+}
+.container {
+  text-align: right;
+}
+.ahref {
+  text-align: right;
+}
+.ul li {
+  list-style-type: none;
+  padding: 20px;
+}
+.ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-top: 30px;
+  padding: 25px;
+}
+.ul li a:hover {
+  color: rgb(253, 253, 253);
+  background-color: lightsalmon;
+  border-radius: 2px;
+}
+
+/*Navbar style end*/
+
+/*Search style start*/
+.search {
+  margin: 20px;
+}
+.input {
+  height: 30px;
+  border-radius: 10px;
+  width: 700px;
+}
+.qidiruv {
+  margin-left: 20px;
+  text-decoration: none;
+  background-color: rgb(87, 79, 245);
+  color: #fff;
+  padding: 7px;
+  border-radius: 20px;
+}
+.qidiruv:hover {
+  background-color: crimson;
+  color: rgb(249, 244, 244);
+}
+
+/*Search style end*/
+
+.card {
+  margin: 50px auto;
+  background-image: url("../images/rasm2.jpg");
+  height: 400px;
+  max-width: 1341px;
+}
+.card h1 {
+  color: coral;
+  padding: 20px;
+  text-overflow: clip;
+  font-family: sans-serif;
+}
+.btn {
+  margin: 70px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightcoral;
+  color: #fff;
+}
+.btn:hover {
+  background-color: cornflowerblue;
+  color: aliceblue;
+  cursor: pointer;
+}
+.clr {
+  clear: both;
+}
+#footer {
+  background-color: rgb(150, 153, 255);
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  font-family: sans-serif;
+  padding: 10px 0;
+}
